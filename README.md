@@ -60,4 +60,4 @@ for(auto &current : doc["metadata"]["Array"].GetArray()) {
 std::cout << "value: " << current.GetString() << std::endl;
 }
 ```
-And that's the basics of rapidJson!
+And that's the basics of rapidJson! Be sure to look at the [official tutorial page](https://rapidjson.org/) if you would like to get more fancy!
