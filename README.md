@@ -47,7 +47,7 @@ doc["jack"].GetString();
 ```
 now, in order to access the string of "jack", then You have to call the GetString() method as used above. Now, there are a couple other functions, which are also very useful.
 
-For example, IsObject() will return a boolean value of true if the accessor is a real value, and will cause a SIGABRT if it is not a real value.
+For example, IsObject() will cause a SIGABRT if it is not a real value.
 IsArray() works similarly to IsObject, but as the name suggests, it will make sure that the value accessed is an array before letting the rest of the code execute.
 
 #### iterating over arrays of objects
