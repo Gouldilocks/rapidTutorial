@@ -38,7 +38,7 @@ int main () {
 				// check that Array is an object
 				doc["metadata"]["Array"].IsObject()
 				// check that Array is an array
-				if(doc["metadata"]["Array"].IsArray()) cout << "Array is an array" << endl;
+				doc["metadata"]["Array"].IsArray()
 				// loop over all the values of array
 				for (auto &v : doc["metadata"]["Array"].GetArray ()) {
 				cout << "Value: " <<  v.GetString () << endl;
