@@ -31,7 +31,7 @@ rapidjson::Document doc;
 string wholeFile
 // input the whole .json into wholeFile
 doc.Parse();
-```C++
+```
 And now your document is parsed! Next, you will have to access each element of your Document object
 
 ### Accessing elements
