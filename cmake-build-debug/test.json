@@ -1,0 +1,11 @@
+{
+  "title" : "test document",
+  "metadata": {
+    "notArray": "this is just a string. Not an array of objects",
+    "Array": [
+      "first Value",
+      "second Value",
+      "third value"
+    ]
+}
+}

@@ -1,0 +1,4 @@
+/snap/clion/149/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/bin/make -DCMAKE_C_COMPILER=/bin/cc -DCMAKE_CXX_COMPILER=/bin/c++ -G "CodeBlocks - Unix Makefiles" "/home/christian/Desktop/Data Structures TA Spring 2021/untitled"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/christian/Desktop/Data Structures TA Spring 2021/untitled/cmake-build-debug

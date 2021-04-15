@@ -1,0 +1,218 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/allocators.h
+rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+internal/meta.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/meta.h
+memory
+-
+type_traits
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/document.h
+reader.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/reader.h
+internal/meta.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/meta.h
+internal/strfunc.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/strfunc.h
+memorystream.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/memorystream.h
+encodedstream.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/encodedstream.h
+new
+-
+limits
+-
+compare
+-
+iterator
+-
+map
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/encodedstream.h
+stream.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/stream.h
+memorystream.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/memorystream.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/encodings.h
+rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/error/error.h
+../rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/biginteger.h
+../rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+intrin.h
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/clzll.h
+../rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+intrin.h
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/diyfp.h
+../rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+clzll.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/clzll.h
+limits
+-
+intrin.h
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/ieee754.h
+../rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/meta.h
+../rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+type_traits
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/pow10.h
+../rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/stack.h
+../allocators.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/allocators.h
+swap.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/swap.h
+cstddef
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/strfunc.h
+../stream.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/stream.h
+cwchar
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/strtod.h
+ieee754.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/ieee754.h
+biginteger.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/biginteger.h
+diyfp.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/diyfp.h
+pow10.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/pow10.h
+climits
+-
+limits
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/swap.h
+../rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/memorystream.h
+stream.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/stream.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/msinttypes/inttypes.h
+stdint.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/msinttypes/stdint.h
+inttypes.h
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/msinttypes/stdint.h
+stdint.h
+-
+limits.h
+-
+wchar.h
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+cstdlib
+-
+cstring
+-
+rapidjson/...
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson/...
+string
+-
+msinttypes/stdint.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/msinttypes/stdint.h
+msinttypes/inttypes.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/msinttypes/inttypes.h
+stdint.h
+-
+inttypes.h
+-
+endian.h
+-
+rapidjson/...
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson/...
+cassert
+-
+utility
+-
+cassert
+-
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/reader.h
+allocators.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/allocators.h
+stream.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/stream.h
+encodedstream.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/encodedstream.h
+internal/clzll.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/clzll.h
+internal/meta.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/meta.h
+internal/stack.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/stack.h
+internal/strtod.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/internal/strtod.h
+limits
+-
+intrin.h
+-
+nmmintrin.h
+-
+emmintrin.h
+-
+arm_neon.h
+-
+stdexcept
+-
+rapidjson/error/error.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson/error/error.h
+rapidjson/reader.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson/reader.h
+error/error.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/error/error.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/stream.h
+rapidjson.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/rapidjson.h
+encodings.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/encodings.h
+
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/main.cpp
+iostream
+-
+include/rapidjson/document.h
+/home/christian/Desktop/Data Structures TA Spring 2021/untitled/include/rapidjson/document.h
+string
+-
+fstream
+-
+
