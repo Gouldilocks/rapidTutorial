@@ -18,7 +18,7 @@ Using tools with rapidJson is as simple as including the libraries of rapidJson 
 
 The include which we will be looking at here, is the document.h include. Put this at the top of your implementation file:
 
-```
+```C++
 #include include/rapidjson/document.h
 ```
 That should be the total extent of setup for you to get parsing.
@@ -26,12 +26,12 @@ That should be the total extent of setup for you to get parsing.
 ### Parsing Documents
 
 Parsing documents is not very difficult with rapidJson. First thing you should do is get all of the .json file you wish to parse into a single char array. To do this, in my example code, I use a std::string object and getline to accomplish this. To parse the document, simple call Parse on a Document object.
-```
+```C++
 rapidjson::Document doc;
 string wholeFile
 // input the whole .json into wholeFile
 doc.Parse();
-```
+```C++
 And now your document is parsed! Next, you will have to access each element of your Document object
 
 ### Accessing elements
@@ -42,7 +42,7 @@ rapidJson uses operator[] in order to access each element in your parsed json fi
 To access an element, simply place square braces around a c-string you wish to access.
 
 For example, if you would wish to access the element "jack", and it is in the main curly braces of your .json file, then you would simply access it by typing
-```
+```C++
 doc["jack"].GetString();
 ```
 now, in order to access the string of "jack", then You have to call the GetString() method as used above. Now, there are a couple other functions, which are also very useful.
@@ -55,7 +55,7 @@ IsArray() works similarly to IsObject, but as the name suggests, it will make su
 You can actually iterate over an array of objects using range based loops.
 
 For example, if there is an array of objects at metadata -> arrayHere, then you can iterate over that array like this:
-```
+```C++
 for(auto &current : doc["metadata"]["Array"].GetArray()) { 
 std::cout << "value: " << current.GetString() << std::endl;
 }
