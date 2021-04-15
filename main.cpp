@@ -4,21 +4,26 @@
 #include <fstream>
 using namespace std;
 int main () {
-		// declare the document object
-		rapidjson::Document doc;
-		// initialize the input file
+				// declare the document object
+				rapidjson::Document doc;
+
+				// initialize the input file
 				ifstream streamy ("test.json");
-				// create a whole string object
+
+				// put the whole file's data into wholeFile
 				string wholeFile;
 				string temp;
-				// put the whole file into a string
 				while(getline(streamy,temp)){wholeFile+= temp;}
+				streamy.close ();
+
 				// call parse on the string
 				doc.Parse (wholeFile.c_str());
-				// close the input file
-				streamy.close ();
 				// make sure the parsing worked
 				if (doc.IsObject ()) cout << "ITS AN OBJECT" << endl << endl;
+
+				/*
+				 * Getting the values of a string object
+				 */
 
 				// check that notArray is an object
 				if(doc["metadata"]["notArray"].IsObject()) cout << "title is a valid value" << endl;
@@ -26,6 +31,9 @@ int main () {
 				string notArr = doc["metadata"]["notArray"].GetString();
 				cout << "notArr: " << notArr << endl << endl;
 
+				/*
+				 * Getting the values inside an array of string objects
+				 */
 
 				// check that Array is an object
 				if(doc["metadata"]["Array"].IsObject()) cout << "Array is a valid value" << endl;

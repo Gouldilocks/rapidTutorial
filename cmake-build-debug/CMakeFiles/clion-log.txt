@@ -1,4 +1,16 @@
-/snap/clion/149/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/bin/make -DCMAKE_C_COMPILER=/bin/cc -DCMAKE_CXX_COMPILER=/bin/c++ -G "CodeBlocks - Unix Makefiles" "/home/christian/Desktop/Data Structures TA Spring 2021/untitled"
+/snap/clion/149/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/bin/make -DCMAKE_C_COMPILER=/bin/cc -DCMAKE_CXX_COMPILER=/bin/c++ -G "CodeBlocks - Unix Makefiles" "/home/christian/Desktop/Data Structures TA Spring 2021/rapidTutorial"
+-- The C compiler identification is GNU 10.2.0
+-- The CXX compiler identification is GNU 10.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/christian/Desktop/Data Structures TA Spring 2021/untitled/cmake-build-debug
+-- Build files have been written to: /home/christian/Desktop/Data Structures TA Spring 2021/rapidTutorial/cmake-build-debug
