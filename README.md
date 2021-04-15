@@ -25,3 +25,39 @@ That should be the total extent of setup for you to get parsing.
 
 ### Parsing Documents
 
+Parsing documents is not very difficult with rapidJson. First thing you should do is get all of the .json file you wish to parse into a single char array. To do this, in my example code, I use a std::string object and getline to accomplish this. To parse the document, simple call Parse on a Document object.
+```
+rapidjson::Document doc;
+string wholeFile
+// input the whole .json into wholeFile
+doc.Parse();
+```
+And now your document is parsed! Next, you will have to access each element of your Document object
+
+### Accessing elements
+
+#### using the [] operator
+
+rapidJson uses operator[] in order to access each element in your parsed json file.
+To access an element, simply place square braces around a c-string you wish to access.
+
+For example, if you would wish to access the element "jack", and it is in the main curly braces of your .json file, then you would simply access it by typing
+```
+doc["jack"].GetString();
+```
+now, in order to access the string of "jack", then You have to call the GetString() method as used above. Now, there are a couple other functions, which are also very useful.
+
+For example, IsObject() will return a boolean value of true if the accessor is a real value, and will cause a SIGABRT if it is not a real value.
+IsArray() works similarly to IsObject, but as the name suggests, it will make sure that the value accessed is an array before letting the rest of the code execute.
+
+#### iterating over arrays of objects
+
+You can actually iterate over an array of objects using range based loops.
+
+For example, if there is an array of objects at metadata -> arrayHere, then you can iterate over that array like this:
+```
+for(auto &current : doc["metadata"]["Array"].GetArray()) { 
+std::cout << "value: " << current.GetString() << std::endl;
+}
+```
+And that's the basics of rapidJson!
