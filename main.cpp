@@ -26,7 +26,7 @@ int main () {
 				 */
 
 				// check that notArray is an object
-				if(doc["metadata"]["notArray"].IsObject()) cout << "title is a valid value" << endl;
+				doc["metadata"]["notArray"].IsObject()
 				// get the value of notArray in the form of a String
 				string notArr = doc["metadata"]["notArray"].GetString();
 				cout << "notArr: " << notArr << endl << endl;
@@ -36,7 +36,7 @@ int main () {
 				 */
 
 				// check that Array is an object
-				if(doc["metadata"]["Array"].IsObject()) cout << "Array is a valid value" << endl;
+				doc["metadata"]["Array"].IsObject()
 				// check that Array is an array
 				if(doc["metadata"]["Array"].IsArray()) cout << "Array is an array" << endl;
 				// loop over all the values of array
